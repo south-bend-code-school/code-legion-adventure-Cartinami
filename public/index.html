@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- Latest Google Firebase Library.
+    A killer Database as a Service-->
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+    <!-- Latest compiled and minified JQUERY Library.
+    Helps us manipulate the Document Object Model (DOM) -->
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified Bootstrap CSS Library.
+    Helps us build "responsive" websites that look great on phones, tablets, and desktop computers -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="../scripts/main.js"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+  </head>
+
+  <body>
+    <!--Game Title-->
+    <div class="row">
+      <div class="col-md-12">
+        <H1>Adventure</H1>
+      </div>
+    </div>
+
+    <!--Game Text-->
+    <div class="row">
+      <div class="col-md-6" id="game"></div>
+      <div class="col-md-6"></div>
+    </div>
+
+    <!--Buttons-->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">What would you like to do?</h3>
+          </div>
+          <div class="panel-body">
+            <div class="btn-group" role="group" aria-label="..." id="buttons">
+              <button type="button" class="btn btn-default" id="btn1">Break into the house</button>
+              <button type="button" class="btn btn-default" id="btn2">Look under the Mat</button>
+              <button type="button" class="btn btn-default" id="btn3">Check the Mail</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6"></div>
+    </div>
+
+
+    <!-- <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">What would you like to do?</h3>
+          </div>
+          <div class="panel-body">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default disabled" id="whistle">Investigate the whistling noise</button>
+              <button type="button" class="btn btn-default" id="run">Run away</button>
+              <button type="button" class="btn btn-default" id="kitchen">Move toward the kitchen</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6"></div>
+    </div> -->
+  </body>
+
+
+</html>
